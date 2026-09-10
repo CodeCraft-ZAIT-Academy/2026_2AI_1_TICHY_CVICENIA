@@ -1,0 +1,35 @@
+h1{
+    color: crimson;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+h2{
+    color: cyan;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+p{
+    color: brown;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+a{
+    color: chartreuse;
+    
+}
+a:hover{
+    color: red;
+}
+section{
+    background-color: coral;
+    padding: 25px 50px;
+    margin: 25px 50px;
+    border-radius: 25px;
+}
+img{
+    border: 10px solid transparent;
+    padding: 10px;
+    border-image: url(https://d1qgh7vfxb2rk6.cloudfront.net/favicon-icon.png) 30 stretch;
+    border-radius: 100px;
+    
+}
