@@ -1,0 +1,21 @@
+.header{
+    background-color: grey;
+
+}
+.number{
+    text-align: right;
+}
+table,  th, td{
+    border-spacing: 0;
+    border: 1px solid ;
+}
+table{
+    background-color: greenyellow;
+}
+tr:nth-last-child(odd){
+    background-color: yellow;
+}
+.number2{
+    background-color: red;
+    text-align: right;
+}
