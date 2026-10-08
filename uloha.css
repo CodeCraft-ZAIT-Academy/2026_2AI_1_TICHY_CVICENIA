@@ -1,26 +1,37 @@
-h1{
-    text-align: center;
-}
-iframe{
-    margin: 10px;
-}
-span{
-    margin-left: 20px;
-}
-.container{
-    display: flex;
-    gap: 10px;
-    flex-direction: row;
+.thumbnail{
+    width: 500px; 
+    height: 300px;
 
 }
-.karta1, .karta2, .karta3{
-    display: flex;
-    flex-direction: column;
+.pfp{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
 }
-.search{
-    width: 500px;
-    height: 20px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
+.video-info, .video-text, .options{
+    display: flex;
+}
+.video-text{
+    margin-left: 20px;
+}
+.options{
+    width: 40px;
+    height: 40px;
+    margin-left: 100px;
+}
+.options3{
+    width: 40px;
+    height: 40px;
+    margin-left: 140px;
+}
+.pfp, .options{
+    margin-top: 10px;
+}
+.video-preview, .video-preview2, .video-preview3{
+    display: inline-block;
+    margin: 20px;
+}
+.video-preview:hover, .video-preview2:hover, .video-preview3:hover{
+    background-color: gainsboro;
 }
