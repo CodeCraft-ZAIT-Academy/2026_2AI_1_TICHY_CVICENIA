@@ -1,0 +1,29 @@
+.thumbnail{
+    width: 200px;
+    border-radius: 15px;
+    
+}
+.thumbnail1{
+    width: 200px;
+    height: 200px;
+}
+.thumbnail2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.thumbnail3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.search-bar3{
+    width: 150px;
+    height: 20px;
+    
+}
+.search-bar1{
+border-radius: 15px;
+}
