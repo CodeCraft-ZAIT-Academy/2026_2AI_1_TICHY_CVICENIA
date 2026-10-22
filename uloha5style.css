@@ -1,0 +1,191 @@
+.sections2 {
+    padding-top: 80px;
+    margin-left: 100px;
+}
+
+.thumbnail {
+    width: 500px;
+    height: 300px;
+}
+
+.pfp {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.video-info,
+.video-text,
+.options {
+    display: flex;
+}
+
+.video-text {
+    margin-left: 20px;
+}
+
+.options {
+    width: 40px;
+    height: 40px;
+    margin-left: 100px;
+}
+
+.options3 {
+    width: 40px;
+    height: 40px;
+    margin-left: 140px;
+}
+
+.pfp,
+.options {
+    margin-top: 10px;
+}
+
+.video-preview,
+.video-preview2,
+.video-preview3 {
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+}
+
+.video-preview:hover,
+.video-preview2:hover,
+.video-preview3:hover {
+    background-color: gainsboro;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+
+.mpfp {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.micb {
+    background-color: lightgray;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.mic {
+    width: 30px;
+    height: 30px;
+}
+
+.camera {
+    width: 40px;
+    height: 40px;
+}
+
+.zvon {
+    width: 40px;
+    height: 40px;
+}
+
+.lupab {
+    background-color: lightgray;
+    width: 110px;
+    height: 44px;
+    border: 1px solid black;
+}
+
+.lupa {
+    width: 30px;
+    height: 30px;
+}
+
+.menu {
+    width: 30px;
+    height: 30px;
+}
+
+.zvonb {
+    position: relative;
+    display: inline-block;
+}
+
+.number {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time {
+    color: white;
+    background-color: black;
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    bottom: 100px;
+    right: 25px;
+    font-family: Roboto, Arial;
+}
+
+.sections {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+    padding: 5px 0;
+}
+
+.sections-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background-color: white;
+    padding-top: 20px;
+    margin-top: 80px;
+}
+
+.left-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+}
+
+.sidebar-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.txt-icon {
+    text-align: center;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    margin-top: 4px;
+}
